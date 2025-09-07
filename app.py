@@ -10,7 +10,7 @@ st.write("Upload a CSV file with patient data or choose a **sample dataset** to 
 
 
 st.subheader("📄 Download Patient Data Template (Doctors Only)")
-template_df = pd.read_csv("K:/Breast_Cancer_Project/Template.csv")  
+template_df = pd.read_csv("Template.csv")  
 template_csv = template_df.to_csv(index=False).encode("utf-8")
 
 st.download_button(
@@ -86,3 +86,4 @@ if patient_data is not None:
     )
 else:
     st.info("Please upload a file or choose a sample dataset to proceed.")
+

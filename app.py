@@ -22,9 +22,9 @@ st.download_button(
 
 
 sample_files = {
-    "Case 1": "samples/case_1.csv",
-    "Case 2": "samples/case_2.csv",
-    "Case 3": "samples/case_3.csv"
+    "Case 1": "samples/Case_1.csv",
+    "Case 2": "samples/Case_2.csv",
+    "Case 3": "samples/Case_3.csv"
 }
 
 
@@ -86,4 +86,5 @@ if patient_data is not None:
     )
 else:
     st.info("Please upload a file or choose a sample dataset to proceed.")
+
 

@@ -38,7 +38,7 @@ The app allows users to upload patient data (CSV) or use **ready-made sample cas
 
 ## 📬 Try It Online  
 
-👉 Coming soon on **Streamlit Cloud** (deployment link can be added here)  
+👉  [Launch the app on Streamlit](https://stay-or-churn-analyzer-by-keroloues-mourad.streamlit.app/)
 
 ---
 
